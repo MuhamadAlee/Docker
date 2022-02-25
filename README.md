@@ -1,4 +1,6 @@
-# Docker_Tutorial
+# Docker
+
+
 **Docker installation steps.**
 
         sudo apt-get -y install apt-transport-https ca-certificates curl software-properties-common
@@ -10,7 +12,7 @@
         
 **Docker Build**
         
-          sudo docker build -t my_docker . 
+        sudo docker build -t my_docker . 
           
 **Run Docker**
           
