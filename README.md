@@ -15,4 +15,6 @@
         sudo docker build -t my_docker . 
           
 **Run Docker**
+
+        sudo docker run --publish 8080:8080 dummy
           
