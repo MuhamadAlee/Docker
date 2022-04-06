@@ -25,5 +25,6 @@
         2) sudo docker ps -a (Picks latest exit container id from output eg deddd39fa163 )
         3) sudo docker commit deddd39fa163 linuxmintd-updated
         
+        -----------------------------------------------------------
         4) or refer to the link  ( https://phoenixnap.com/kb/how-to-commit-changes-to-docker-image )
           
