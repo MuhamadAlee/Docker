@@ -28,19 +28,19 @@
         -----------------------------------------------------------
         4) or refer to the link  ( https://phoenixnap.com/kb/how-to-commit-changes-to-docker-image )
         
-** See Docker containers**
+**See Docker containers**
 
         sudo docker container ls -a
         
-** Delete all stopped container **
+**Delete all stopped container**
 
         sudo docker container prune
         
-** see Docker Images **
+**see Docker Images**
 
         sudo docker images
         
-** Delete Docker Image **
+**Delete Docker Image**
 
         sudo docker image rm image-id (eg 23628dd8bd6b)
         
