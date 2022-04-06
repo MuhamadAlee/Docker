@@ -16,5 +16,11 @@
           
 **Run Docker**
 
-        sudo docker run --publish 8080:8080 dummy
+        sudo docker run --publish 8080:8080 my_docker
+        
+**In case of Error while installing packages**
+
+        1) sudo docker run -it linuxmintd/mint19.3-amd64 bash
+        2) #root container bash will get open then install packages there sequentially
+                .) apt-get install vim git virtualen
           
