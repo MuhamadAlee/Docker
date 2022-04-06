@@ -21,8 +21,9 @@
 **In case of Error while installing packages**
 
         1) sudo docker run -it linuxmintd/mint19.3-amd64 bash
-        2) #root container bash will get open then install packages there sequentially
-                .) apt-get install vim git virtualen
-                
-        3) or refer to the link https://www.geeksforgeeks.org/how-to-install-linux-packages-inside-a-docker-container/
+        2) apt-get install vim git virtualenv
+        2) sudo docker ps -a (Picks latest exit container id from output eg deddd39fa163 )
+        3) sudo docker commit deddd39fa163 linuxmintd-updated
+        
+        4) or refer to the link  ( https://phoenixnap.com/kb/how-to-commit-changes-to-docker-image )
           
