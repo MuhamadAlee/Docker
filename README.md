@@ -23,4 +23,6 @@
         1) sudo docker run -it linuxmintd/mint19.3-amd64 bash
         2) #root container bash will get open then install packages there sequentially
                 .) apt-get install vim git virtualen
+                
+        3) or refer to the link https://www.geeksforgeeks.org/how-to-install-linux-packages-inside-a-docker-container/
           
