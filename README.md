@@ -44,5 +44,20 @@
 
         sudo docker image rm image-id (eg 23628dd8bd6b)
         
+**Pushing Docker image to Docker Hub**
+
+        1) $ sudo docker login
+
+        2) $ sudo docker tag image_name:latest docker_id/image_name:latest (e g ali/my_image:latest)
+        
+        3) $ sudo docker push docker_id:/image_name:latest (e g ali/my_image:latest)
+        
+        
+**Pull and Run Docker Image**
+
+        1) $ docker pull docker_id/image_name:latest (e g ali/my_image:latest)
+        
+        2) $ docker run -it docker_id/image_name:latest (e g ali/my_image:latest)
+        
     
           
